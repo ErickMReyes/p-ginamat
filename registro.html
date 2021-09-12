@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="CSS/registro.css">
+    <title>ACERCADE</title>
+</head>
+
+
+
+<body>
+    
+    <nav>
+        <div class="nav-wrapper indigo">
+          <a href="#" class="brand-logo right">ERICK</a>
+          <ul id="nav-mobile" class="left hide-on-med-and-down">
+            <li><a href="index.html">INICIO</a></li>
+            <li><a href="acercade.html">ACERCADE</a></li>
+            <li><a href="login.html">LOGIN</a></li>
+            
+          </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <form class="col s12" id="reg-form">
+              <div class="row">
+                <div class="input-field col s6">
+                  <input id="first_name" type="text" class="validate" required>
+                  <label for="first_name">Nombre</label>
+                </div>
+                <div class="input-field col s6">
+                  <input id="last_name" type="text" class="validate" required>
+                  <label for="last_name">Apellidos</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="email" type="email" class="validate" required>
+                  <label for="email">Correo</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="password" type="password" class="validate" minlength="6" required>
+                  <label for="password">Contraseña</label>
+                </div>
+              </div>
+              <div class="row">
+                
+        
+                <div class="input-field col s6">
+                  <button class="btn btn-large btn-register waves-effect waves-light indigo" type="submit" name="action">Registrar
+                    
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+          
+        </div>
+        
+
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function() {
+        $('select').material_select();
+        });
+    </script>
+</body>
+</html>
